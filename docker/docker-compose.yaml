@@ -1074,6 +1074,8 @@ networks:
   opensearch-net:
     driver: bridge
     internal: true
+  dokploy-network:
+    driver: bridge
 
 volumes:
   oradata:
